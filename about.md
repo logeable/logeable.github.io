@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-求职简历
-===========
 # 联系方式
 
 - mobile：18779187384
