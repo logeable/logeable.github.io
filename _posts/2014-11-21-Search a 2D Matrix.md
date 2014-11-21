@@ -19,6 +19,9 @@ Consider the following matrix:
 ]
 </pre>
 
+
+####本题采用二分搜索。
+
 <pre><code>
 class Solution
 {
@@ -56,5 +59,3 @@ public:
 };
 
 </code></pre>
-
->本题采用二分搜索。
