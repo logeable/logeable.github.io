@@ -16,7 +16,7 @@ code here
 这样的语法进行代码的书写了
 
 
-```
+```c++
 #include <iostream>
 using namespace std;
 
