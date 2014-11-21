@@ -5,8 +5,7 @@ category: [syntax,highlight,github page]
 ---
 
 在_config.yml里面加入下面这一行
-```
-<pre>
+```<pre>
 markdown: redcarpet
 redcarpet:
     extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
@@ -16,8 +15,7 @@ redcarpet:
 然后在你的主题的default.html模版文件里面增加代码高亮的css
 这样就可以用
 
-```
-<pre>
+```<pre>
 ```language
 code here
 ```
