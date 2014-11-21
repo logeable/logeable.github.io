@@ -19,15 +19,9 @@ Consider the following matrix:
 ]
 </pre>
 
-{% highlight java %}
-public class HelloWorld {
-    public static void main(String args[]) {
-      System.out.println("Hello World!");
-    }
-}
-{% endhighlight %}
+
 ####本题采用二分搜索。
-```c++
+{% highlight c++ %}
 class Solution
 {
 public:
@@ -62,4 +56,4 @@ public:
 		return false;
 	}
 };
-```
+{% endhighlight %}
