@@ -22,7 +22,7 @@ Consider the following matrix:
 
 ####本题采用二分搜索。
 
-<pre><code>
+<code>
 class Solution
 {
 public:
@@ -58,4 +58,4 @@ public:
 	}
 };
 
-</code></pre>
+</code>
