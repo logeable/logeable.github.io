@@ -21,7 +21,7 @@ Consider the following matrix:
 
 
 ####本题采用二分搜索。
-<pre><code>
+```c++
 class Solution
 {
 public:
@@ -56,4 +56,4 @@ public:
 		return false;
 	}
 };
-</code></pre>
+```
