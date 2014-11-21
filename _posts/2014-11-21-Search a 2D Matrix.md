@@ -21,7 +21,6 @@ Consider the following matrix:
 
 
 ####本题采用二分搜索。
-<div id="highlight">
 <pre><code>
 class Solution
 {
@@ -58,4 +57,3 @@ public:
 	}
 };
 </code></pre>
-</div>
