@@ -11,17 +11,18 @@ Write an efficient algorithm that searches for a value in an m x n matrix. This 
 
 For example,
 Consider the following matrix:
-<pre>
+```
 [
   [1,   3,  5,  7],
   [10, 11, 16, 20],
   [23, 30, 34, 50]
 ]
-</pre>
+```
+[https://oj.leetcode.com/problems/search-a-2d-matrix/](https://oj.leetcode.com/problems/search-a-2d-matrix/) 
 
-
+---
 ####本题采用二分搜索。
-{% highlight c++ %}
+```c++
 class Solution
 {
 public:
@@ -56,4 +57,4 @@ public:
 		return false;
 	}
 };
-{% endhighlight %}
+```
