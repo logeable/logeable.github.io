@@ -5,12 +5,10 @@ category: [syntax,highlight,github page]
 ---
 
 在_config.yml里面加入下面这一行
-{% highlight css %} 
-```<pre>
+{% highlight pre %} 
 markdown: redcarpet
 redcarpet:
     extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
-```
 {% endhighlight%}
 
 
