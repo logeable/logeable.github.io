@@ -59,8 +59,8 @@ permalink: /about/
 
 - 熟悉 c/c++，python
 - 熟悉 常用数据结构和算法
-- 熟悉 Linux，tcp/ip，socket
-- 了解 Cocos2d-x，OpenGL，Android
+- 熟悉 Linux，tcp/ip
+- 了解 Cocos2d-x，OpenGL，Android，socket
 - 数据库相关：MySQL
 - 版本管理： Git
 
