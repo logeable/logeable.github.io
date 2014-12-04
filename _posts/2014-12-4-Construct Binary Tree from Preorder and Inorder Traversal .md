@@ -1,6 +1,6 @@
 ---
 layout: post
-Construct Binary Tree from Preorder and Inorder Traversal 
+title: Construct Binary Tree from Preorder and Inorder Traversal 
 category: [leetcode,algorithm]
 ---
 
