@@ -7,6 +7,8 @@ category: [leetcode,algorithm]
 Given preorder and inorder traversal of a tree, construct the binary tree.
 
 Note:
+You may assume that duplicates do not exist in the treeNote:
+You may assume that duplicates do not exist in the treeNote:
 You may assume that duplicates do not exist in the tree
 
 [https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -31,7 +33,7 @@ TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder)
 	return root;
 }
 ```
-####上面问题的原因可能是使用了过多的vector，那么就使用迭代器，英爱就可以了，代码如下：
+####上面问题的原因可能是使用了过多的vector，那么就使用迭代器，就可以了，代码如下：
 ```c++
 TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder) 
 {
