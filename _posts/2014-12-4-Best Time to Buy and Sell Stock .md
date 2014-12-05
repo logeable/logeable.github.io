@@ -10,6 +10,8 @@ If you were only permitted to complete at most one transaction (ie, buy one and 
 
 [https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/](https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
+<!--break-->
+
 ---
 
 ####这一题容易出错的地方是这样求解，求出最大和最小值，然后相减，但是这一题最小值必须在最大值前面，因为不可能在最贵的时候买入，在最便宜的是活卖出。

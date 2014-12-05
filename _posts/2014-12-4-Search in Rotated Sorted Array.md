@@ -14,6 +14,8 @@ You may assume no duplicate exists in the array.
 
 [https://oj.leetcode.com/problems/search-in-rotated-sorted-array/](https://oj.leetcode.com/problems/search-in-rotated-sorted-array/) 
 
+<!--break-->
+
 ---
 
 ####看到题目的时候顺手写了个O(n)的顺序查找，居然也能通过

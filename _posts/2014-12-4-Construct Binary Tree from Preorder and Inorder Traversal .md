@@ -11,6 +11,8 @@ You may assume that duplicates do not exist in the tree
 
 [https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/](https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
+<!--break-->
+
 ---
 
 ####我提交下面代码后，提示 *Memory Limit Exceeded*

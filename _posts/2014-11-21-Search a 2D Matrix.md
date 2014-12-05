@@ -20,6 +20,8 @@ Consider the following matrix:
 ```
 [https://oj.leetcode.com/problems/search-a-2d-matrix/](https://oj.leetcode.com/problems/search-a-2d-matrix/) 
 
+<!--break-->
+
 ---
 ####本题采用二分搜索。
 ```c++
