@@ -107,7 +107,7 @@ strong, b {
 }
 
 img {
-border-radius: 17px;
+border-radius: 10px;
 box-shadow: 1px 27px 17px #777;
   max-width: 100%;
 }
@@ -265,6 +265,10 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+	color: #9c0001;
+  }
+  .read-more hover{
+	  color: #000;
   }
 }
 
