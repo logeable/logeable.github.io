@@ -266,9 +266,10 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
 	color: #9c0001;
-  }
-  .read-more :hover{
-	  color: #000;
+	&:hover
+	{
+		color:#000;
+	}
   }
 }
 
