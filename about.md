@@ -18,7 +18,6 @@ permalink: /about/
  - 李小龙/男/1994 
  - 本科/江西农业大学 计算机与信息工程学院 网络工工程专业
  - 预计毕业时间: 2015年6月
- - CET4：489  / CET6: 448
  - 奖励：拿过5次三等奖学金，第五届蓝桥杯江西省赛3等
  - Github: [http://github.com/logeable](http://github.com/logeable)
 
