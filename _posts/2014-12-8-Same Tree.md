@@ -29,5 +29,4 @@ bool isSameTree(TreeNode *p,TreeNode *q)
 			isSameTree(p->left,q->left)&&isSameTree(p->right,q->right);
 	}
 }
-
 ```
