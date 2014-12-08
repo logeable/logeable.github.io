@@ -15,6 +15,7 @@ Two binary trees are considered equal if they are structurally identical and the
 ---
 
 这个比较简单，遍历就行了。
+
 ```c++
 bool isSameTree(TreeNode *p,TreeNode *q)
 {
