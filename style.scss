@@ -119,12 +119,16 @@ box-shadow: 1px 27px 17px #777;
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: #666666;
+}
+::-webkit-selection{
+  color: $white;
+  background: #666666;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: #666666;
 }
 
 // Nicolas Gallagher's micro clearfix hack
