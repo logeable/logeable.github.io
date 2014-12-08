@@ -23,9 +23,9 @@ There is a more generic way of solving this problem.
 
 要注意负数不会是回文的。
 ps:介绍中提到:
-```
+
 However, if you have solved the problem "Reverse Integer", you know that the reversed integer might overflow
-```
+
 
 但是还是ac的。
 
