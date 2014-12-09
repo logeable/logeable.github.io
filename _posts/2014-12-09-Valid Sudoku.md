@@ -21,8 +21,7 @@ A valid Sudoku board (partially filled) is not necessarily solvable. Only the fi
 
 ---
 
-####就是判断每一行，每一列，每一个九宫格里有没有乡同的数，有的话则返回false,否则返回true。
-虽然有点丑陋。。。不过还是ac了。
+####就是判断每一行，每一列，每一个九宫格里有没有乡同的数，有的话则返回false,否则返回true。虽然有点丑陋。。。不过还是ac了。
 ```c++
 class Solution 
 {
