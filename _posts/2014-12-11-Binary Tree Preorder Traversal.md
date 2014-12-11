@@ -21,6 +21,8 @@ return [1,2,3].
 
 Note: Recursive solution is trivial, could you do it iteratively?
 
+[https://oj.leetcode.com/problems/binary-tree-preorder-traversal/](https://oj.leetcode.com/problems/binary-tree-preorder-traversal/) 
+
 <!--break-->
 
 ---
