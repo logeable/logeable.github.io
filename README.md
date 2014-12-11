@@ -1,1 +1,1 @@
-source code for [logeable.github.io](logeable.github.io)
+source code for [logeable.github.io](http://logeable.github.io)
