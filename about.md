@@ -24,6 +24,18 @@ permalink: /about/
 
 ---
 
+#技能清单
+
+- 熟悉 c/c++ > python
+- 熟悉 常用数据结构和算法
+- 熟悉 Linux，tcp/ip
+- 了解 Cocos2d-x，OpenGL，Android，socket
+- 数据库相关：MySQL
+- 版本管理： Git
+
+学习一样新的技能并不是什么很难的事情，Google，StackOverflow，GitHub上都能找到资源，项目的产出也看自己有没有需求，看自己爱不爱折腾。预计接下来将会学习*设计模式*等，以及回顾并进一步学习已经学过的知识。
+
+---
 
 # 个人项目
 
@@ -55,18 +67,6 @@ permalink: /about/
 ---
 
 
-#技能清单
-
-- 熟悉 c/c++ > python
-- 熟悉 常用数据结构和算法
-- 熟悉 Linux，tcp/ip
-- 了解 Cocos2d-x，OpenGL，Android，socket
-- 数据库相关：MySQL
-- 版本管理： Git
-
-学习一样新的技能并不是什么很难的事情，Google，StackOverflow，GitHub上都能找到资源，项目的产出也看自己有没有需求，看自己爱不爱折腾。预计接下来将会学习*设计模式*等，以及回顾并进一步学习已经学过的知识。
-
----
 
 
 # 致谢
