@@ -8,13 +8,15 @@ Given a binary tree, return the preorder traversal of its nodes' values.
 
 For example:
 Given binary tree {1,#,2,3},
-```c
+<pre>
+<code>
    1
     \
      2
     /
    3
-```
+</code>
+</pre>
 return [1,2,3].
 
 Note: Recursive solution is trivial, could you do it iteratively?
