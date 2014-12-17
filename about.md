@@ -50,7 +50,7 @@ permalink: /about/
 ##字典2.0
 简介：这次写的字典功能稍微强大点，包括了查词，记录所查的单词并供离线查询，提供web 接口。（部分功能还在coding）
 项目地址：[https://github.com/logeable/DICT](https://github.com/logeable/DICT)
->使用了类似于cocos2d-x的导演和场景类，实现不同功能模块的跳转。
+>使用了类似于cocos2d-x的导演和场景类，实现不同功能模块的跳转。 
 >改进：利用ncurses改进界面
 
 ##成绩管理系统
