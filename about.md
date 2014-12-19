@@ -22,6 +22,7 @@ permalink: /about/
  - 四六级通过
  - 奖励：拿过5次三等奖学金，第五届蓝桥杯江西省赛3等
  - Github: [http://github.com/logeable](http://github.com/logeable)
+ - Blog: [http://logeable.github.io](http://logeable.github.io)
 
 ---
 
