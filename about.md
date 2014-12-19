@@ -19,7 +19,7 @@ permalink: /about/
  - 现居南昌，22号到北京
  - 本科/江西农业大学 计算机与信息工程学院 网络工程专业
  - 预计毕业时间: 2015年6月
- - 四六级通过
+ - 通过英语四六级
  - 奖励：拿过5次三等奖学金，第五届蓝桥杯江西省赛3等
  - Github: [http://github.com/logeable](http://github.com/logeable)
  - Blog: [http://logeable.github.io](http://logeable.github.io)
