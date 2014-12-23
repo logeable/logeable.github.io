@@ -41,13 +41,6 @@ permalink: /about/
 
 # 个人项目
 
-##在线字典小程序
-简介：看英文文档的时候总有不认识的单词，然后老是要打开浏览器进入有道词典，感觉很麻烦，就写了这个小程序。通过在linux控制台下输入dict {word}可以查询此但此信息。
-项目地址：[https://github.com/logeable/mybin/blob/master/dic.c](https://github.com/logeable/mybin/blob/master/dic.c)
->利用了linuxsocket编程，构造http请求，将其发送给有道api，然后分析返回数据并显示。
-然后还利用system函数和mplayer完成单词发音的功能。  
->不足之处：分析返回数据代码比较乱，可以使用json库改进，进一步可以用Qt或者Gtk完成Gui版本，以及添加剪贴板操作。
-
 ##字典2.0
 简介：这次写的字典功能更强大，些在以前的小程序上加入了更多功能，包括了查词，记录所查的单词并供离线查询，提供web 接口。（部分功能还在完善)
 项目地址：[https://github.com/logeable/DICT](https://github.com/logeable/DICT)
