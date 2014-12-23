@@ -18,7 +18,7 @@ permalink: /about/
  - 李小龙/男/1994 
  - 现居北京
  - 本科/江西农业大学 计算机与信息工程学院 网络工程专业
- - 预计毕业时间: 2015年6月
+ - 预计毕业时间: 2015年7月
  - 通过英语四六级
  - 奖励：拿过5次三等奖学金，第五届蓝桥杯江西省赛3等
  - Github: [http://github.com/logeable](http://github.com/logeable)
@@ -31,7 +31,7 @@ permalink: /about/
 - 熟悉 c/c++ > python
 - 熟悉 常用数据结构和算法
 - 熟悉 Linux，tcp/ip
-- 了解 Cocos2d-x，OpenGL，Android，socket
+- 了解 Cocos2d-x，OpenGL，socket，multithreading
 - 数据库相关：MySQL
 - 版本管理： Git
 
