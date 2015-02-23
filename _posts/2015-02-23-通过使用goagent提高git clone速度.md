@@ -13,7 +13,4 @@ category: [git,goagent]
 ```shell
 vim ~/.gitconfig
 添加：
-[http]
-	proxy=http://127.0.0.1:8087
-	sslVerify=false
 ```
