@@ -10,7 +10,3 @@ category: [git,goagent]
 
 ---
 
-```shell
-vim ~/.gitconfig
-添加：
-```
