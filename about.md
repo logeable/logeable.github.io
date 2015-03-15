@@ -8,7 +8,7 @@ permalink: /about/
 
 - mobile：18779187384
 - Email：[logeable@gmail.com](mailto:logeable@gmail.com)
-- QQ：657190096
+- QQ/WeChat：657190096
 
 ---
 
@@ -16,38 +16,48 @@ permalink: /about/
 # 个人信息
 
  - 李小龙/男/1994 
- - 现居北京
+ - 现居宁波
  - 本科/江西农业大学 计算机与信息工程学院 网络工程专业
  - 预计毕业时间: 2015年7月
- - 通过英语四六级
+ - 通过cet4 / cet6
  - 奖励：拿过5次三等奖学金，第五届蓝桥杯江西省赛3等
- - Github: [http://github.com/logeable](http://github.com/logeable)
+ - GitHub: [http://github.com/logeable](http://github.com/logeable)
  - Blog: [http://logeable.github.io](http://logeable.github.io)
 
 ---
 
 #技能清单
 
-- 熟悉 c/c++ > python
+- 语言 c/c++ > java python
 - 熟悉 常用数据结构和算法
-- 熟悉 Linux，tcp/ip
-- 了解 Cocos2d-x，OpenGL，socket，multithreading
-- 数据库相关：MySQL
+- 熟悉 Linux平台
+- 了解 一些设计模式，socket，tcp/ip，http，android，Cocos2d-x
+- 数据库：MySQL
 - 版本管理： Git
 
-学习一样新的技能并不是什么很难的事情，Google，StackOverflow，GitHub上都能找到资源，项目的产出也看自己有没有需求，看自己爱不爱折腾。预计接下来将会学习*设计模式*等，以及回顾并进一步学习已经学过的知识。
+学习一样新的技能并不是什么很难的事情，Google，StackOverflow，GitHub上都能找到资源，项目的产出也看自己有没有需求，看自己爱不爱折腾。接下来将会学习**并发编程，函数式编程**等，以及回顾并进一步学习已经学过的知识。
 
 ---
 
 # 个人项目
 
+##简单的android 天气查询app
+简介：输入地点查询天气，温度等信息，简单实用  
+项目地址:[https://github.com/logeable/Weather_android](https://github.com/logeable/Weather_android)
+>改进之处：添加关注地点模块。
+
+##简单的http server
+简介：一个简单的http服务器，使用多进程模型。  
+项目地址：[https://github.com/logeable/server](https://github.com/logeable/server)
+>改进之处：改进io模型，封装http request/response ,json parser模块。
+
 ##字典2.0
-简介：这次写的字典功能更强大，些在以前的小程序上加入了更多功能，包括了查词，记录所查的单词并供离线查询，提供web 接口。（部分功能还在完善)
+简介：这次写的字典功能更强大，些在以前的小程序上加入了更多功能，包括了查词，记录所查的单词并供离线查询。  
 项目地址：[https://github.com/logeable/DICT](https://github.com/logeable/DICT)
->使用了类似于cocos2d-x的导演和场景类，实现不同功能模块的跳转。 
->利用有道api，获取译文。
->linux 控制台
->改进：UI改进，内存管理，数据库改进以及一些细节方面的完善。
+>使用了类似于cocos2d-x的导演和场景类，实现不同功能模块的跳转。   
+>利用有道api，获取译文。  
+>linux 控制台   
+>改进：UI改进，内存管理，数据库改进以及一些细节方面的完善。  
 
 ##成绩管理系统
 简介：当时是想练练手，然后完成了这个程序。实现信息的统计和排序。linux控制台下 实现学生基本信息成绩的输入，删除，修改，查询实现信息的存盘和读盘。  
@@ -55,25 +65,17 @@ permalink: /about/
 >成果： 熟悉文件操作，熟悉链表的操作，熟悉排序算法。感觉要做一个项目，先要有很好的前期规划，各模块做好了后期的编码才能很顺利。   
 不足之处：数据存储是实用的链表，应该可以使用Mysql数据库存储。同样的也可以用Qt完成Gui版本，交互性更强。
 
-
-
-
 ##Cocos2d-x实现的贪吃蛇
-简介：学习Cocos2d-x的时候编写的小游戏。
+简介：学习Cocos2d-x的时候编写的小游戏。  
 项目地址：[https://github.com/logeable/cocos2d-x](https://github.com/logeable/cocos2d-x)
 >改进之处：UI 关卡 调速 加入ai
+
 ##Qt制作的音乐播放器
-简介：为了熟悉Qt以及媒体方面的编程编写的小程序，目前的功能有设置音乐文件夹获取播放列表，记录用户设置，播放、暂停，上/下一首，音量控制，播放进度控制。
-项目地址：https://github.com/logeable/MusicPlayer
+简介：为了熟悉Qt以及媒体方面的编程编写的小程序，目前的功能有设置音乐文件夹获取播放列表，记录用户设置，播放、暂停，上/下一首，音量控制，播放进度控制。  
+项目地址：https://github.com/logeable/MusicPlayer  
 >改进的地方：添加网络模块获取网络歌曲，增加搜索功能，增加歌词模块.
 
 ---
 
-
-
-
 # 致谢
 感谢您花时间阅读我的简历，期待能有机会和您一起工作和学习。
-
-
-
