@@ -29,13 +29,21 @@ permalink: /about/
 #技能清单
 
 - 语言 c/c++ > java python
-- 熟悉 常用数据结构和算法
+- 了解 常用数据结构和算法
 - 熟悉 Linux平台
 - 了解 一些设计模式，socket，tcp/ip，http，android，Cocos2d-x
 - 数据库：MySQL
 - 版本管理： Git
 
 学习一样新的技能并不是什么很难的事情，Google，StackOverflow，GitHub上都能找到资源，项目的产出也看自己有没有需求，看自己爱不爱折腾。接下来将会学习**并发编程，函数式编程**等，以及回顾并进一步学习已经学过的知识。
+
+---
+
+#工作经验
+
+*2015.1 - 2015.2*   北京良品互动  
+["你正常吗"](http://lpiii.cn/normal) 项目维护和升级
+在此期间学习了php语言和yii框架的使用。
 
 ---
 
@@ -64,16 +72,6 @@ permalink: /about/
 项目地址：[https://github.com/logeable/algorithm/tree/master/gms](https://github.com/logeable/algorithm/tree/master/gms)
 >成果： 熟悉文件操作，熟悉链表的操作，熟悉排序算法。感觉要做一个项目，先要有很好的前期规划，各模块做好了后期的编码才能很顺利。   
 不足之处：数据存储是实用的链表，应该可以使用Mysql数据库存储。同样的也可以用Qt完成Gui版本，交互性更强。
-
-##Cocos2d-x实现的贪吃蛇
-简介：学习Cocos2d-x的时候编写的小游戏。  
-项目地址：[https://github.com/logeable/cocos2d-x](https://github.com/logeable/cocos2d-x)
->改进之处：UI 关卡 调速 加入ai
-
-##Qt制作的音乐播放器
-简介：为了熟悉Qt以及媒体方面的编程编写的小程序，目前的功能有设置音乐文件夹获取播放列表，记录用户设置，播放、暂停，上/下一首，音量控制，播放进度控制。  
-项目地址：https://github.com/logeable/MusicPlayer  
->改进的地方：添加网络模块获取网络歌曲，增加搜索功能，增加歌词模块.
 
 ---
 
