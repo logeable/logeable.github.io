@@ -16,11 +16,7 @@ permalink: /about/
 # 个人信息
 
  - 李小龙/男/1994 
- - 现居宁波
- - 本科/江西农业大学 计算机与信息工程学院 网络工程专业
- - 预计毕业时间: 2015年7月
- - 通过cet4 / cet6
- - 奖励：拿过5次三等奖学金，第五届蓝桥杯江西省赛3等
+ - 现居杭州
  - GitHub: [http://github.com/logeable](http://github.com/logeable)
  - Blog: [http://logeable.github.io](http://logeable.github.io)
 
@@ -41,39 +37,9 @@ permalink: /about/
 
 #工作经验
 
-*2015.1 - 2015.2*   北京良品互动  
+*2015.1 - 2015.2*    北京良品互动  
 ["你正常吗"](http://lpiii.cn/normal) 项目维护和升级
 在此期间学习了php语言和yii框架的使用。
 
----
-
-# 个人项目
-
-##简单的android 天气查询app
-简介：输入地点查询天气，温度等信息，简单实用  
-项目地址:[https://github.com/logeable/Weather_android](https://github.com/logeable/Weather_android)
->改进之处：添加关注地点模块。
-
-##简单的http server
-简介：一个简单的http服务器，使用多进程模型。  
-项目地址：[https://github.com/logeable/server](https://github.com/logeable/server)
->改进之处：改进io模型，封装http request/response ,json parser模块。
-
-##字典2.0
-简介：这次写的字典功能更强大，些在以前的小程序上加入了更多功能，包括了查词，记录所查的单词并供离线查询。  
-项目地址：[https://github.com/logeable/DICT](https://github.com/logeable/DICT)
->使用了类似于cocos2d-x的导演和场景类，实现不同功能模块的跳转。   
->利用有道api，获取译文。  
->linux 控制台   
->改进：UI改进，内存管理，数据库改进以及一些细节方面的完善。  
-
-##成绩管理系统
-简介：当时是想练练手，然后完成了这个程序。实现信息的统计和排序。linux控制台下 实现学生基本信息成绩的输入，删除，修改，查询实现信息的存盘和读盘。  
-项目地址：[https://github.com/logeable/algorithm/tree/master/gms](https://github.com/logeable/algorithm/tree/master/gms)
->成果： 熟悉文件操作，熟悉链表的操作，熟悉排序算法。感觉要做一个项目，先要有很好的前期规划，各模块做好了后期的编码才能很顺利。   
-不足之处：数据存储是实用的链表，应该可以使用Mysql数据库存储。同样的也可以用Qt完成Gui版本，交互性更强。
-
----
-
-# 致谢
-感谢您花时间阅读我的简历，期待能有机会和您一起工作和学习。
+*2015.4 - now*       浙江齐治
+堡垒机维护和升级
