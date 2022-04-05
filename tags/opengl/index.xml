@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenGL on l0g - blog</title><link>http://localhost:1313/tags/opengl/</link><description>Recent content in OpenGL on l0g - blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 21 Nov 2014 12:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/opengl/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenGL基础</title><link>http://localhost:1313/post/2014-11-16-opengl%E5%9F%BA%E7%A1%80/</link><pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate><guid>http://localhost:1313/post/2014-11-16-opengl%E5%9F%BA%E7%A1%80/</guid><description>在刚开始学习图形编程的时候它是一项令人生畏的任务。渲染管线设计大量的步骤，每一步又处理各种数学运算。stage 为下一个 stage 运行实际的程序来计算</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenGL on log</title>
+    <link>http://example.org/tags/opengl/</link>
+    <description>Recent content in OpenGL on log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 21 Nov 2014 12:00:00 +0800</lastBuildDate><atom:link href="http://example.org/tags/opengl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenGL基础</title>
+      <link>http://example.org/posts/opengl%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
+      
+      <guid>http://example.org/posts/opengl%E5%9F%BA%E7%A1%80/</guid>
+      <description>在刚开始学习图形编程的时候它是一项令人生畏的任务。渲染管线设计大量的步骤，每一步又处理各种数学运算。stage 为下一个 stage 运行实际的程序来计算结果。熟悉管线，把它当成工具来实现视觉特效，这是成为图形学程序员的本质。 这本书的这一小节介绍一些基础 3D 图形数学，OpenGL 中的管线以及展示数据是怎么流经这些图形管线的。
+  译文：http://www.arcsynthesis.org/gltut/Basics/Introduction.html
+ 向量 这本书假设你熟悉代数学和几何学，但是向量数学不是必须的。后面的章节将会学习到更多复杂主题，但是这里仅仅介绍一些向量数学的基础。
+一个向量可以有许多意思，取决于我门市在谈论几何上的还是数字上的。在每一种情形中，向量都有维度；一个二维向量局限于一个平面中，然而一个三维向量可以在任意物理空间中起作用。向量也可以有更高的维度，但是通常我们仅仅处理 2 到 4 维。
+学术上将一个仅有一个维度的向量叫做标量。
+在几何学方面，一个向量能够表示两种概念：在一个特定空间中的位置和方向。一个位置向量表示一个特定空间中的方位。例如，在下面这个图中我们有 3 个位置向量 A B C：
+![VectorDirections]({{ site.baseurl }}/images/OpenGL 基础/VectorPosition.svg)
+一个向量也能表示一个方向。方向向量没有原点；它们仅仅指定一个空间中的方向。下面这幅图中都是方向向量，但是向量 B 和向量 D 是相同的，几十它们呗华仔不同的位置：
+![VectorPosition]({{ site.baseurl }}/images/OpenGL 基础/VectorDirections.svg)
+向量也可以用于数字上的表述。这种向量是一系列的数字，每一个维度都是一个数字。因此一个二维向量有两个数字；一个三维向量有三个数字，以此类推。标量，就仅仅只有一个数字。
+在向量中的每一个数字被叫做一个分量。每一个分量通常有一个名字。对于我们来说，向量的第一个分量是叫做X 分量，第二个分量叫做Y 分量，第三个叫做Z 分量，而且如果有第四个，那么它叫做W 分量。
+当我们用文本来写一个向量时，它们被写在括号中。因此一个三维向量例如(0,2,4)；X 分量是 0，Y 分量是 2，Z 分量是 4.当将它们写在等式中的时候，他们被写成：
+![ColumnVector]({{ site.baseurl }}/images/OpenGL 基础/ColumnVector.svg)
+在数学等式中，向量变量不仅适用粗体而且在变量的上面还有一个箭头。
+当用图形画向量的时候，位置向量和方向向量就有区别了。然而，数字上的向量并没有任何区别。仅有的区别是如何使用而不是如何表示它们。因此你能够将一个位置向量看成是一个方向并且对它们应用一些向量运算，然后又将结果看成是一个位置向量。
+即使向量有独立的数字分量，但是也有许多数学运算能够应用在向量上。我们将使用几何和数字两种方式来展示其中的一部分运算。
+向量加法 图形上的表示如下：
+![VectorAddition]({{ site.baseurl }}/images/OpenGL 基础/VectorAddition.svg)
+记住向量的方向能够被平移但不改变它们的值。因此如果你将两个向量的头尾相连，向量的加法就是从第一个向量的尾部到最后一个向量的头部的方向。
+![VectorAdditionHeads]({{ site.baseurl }}/images/OpenGL 基础/VectorAdditionHeads.</description>
+    </item>
+    
+  </channel>
+</rss>
