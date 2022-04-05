@@ -2,124 +2,124 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on log</title>
-    <link>http://example.org/tags/</link>
+    <link>http://logeable.github.io/tags/</link>
     <description>Recent content in Tags on log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Dec 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://logeable.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim</title>
-      <link>http://example.org/tags/vim/</link>
+      <link>http://logeable.github.io/tags/vim/</link>
       <pubDate>Sun, 27 Dec 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/vim/</guid>
+      <guid>http://logeable.github.io/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>algorithm</title>
-      <link>http://example.org/tags/algorithm/</link>
+      <link>http://logeable.github.io/tags/algorithm/</link>
       <pubDate>Wed, 04 Mar 2015 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/algorithm/</guid>
+      <guid>http://logeable.github.io/tags/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>leetcode</title>
-      <link>http://example.org/tags/leetcode/</link>
+      <link>http://logeable.github.io/tags/leetcode/</link>
       <pubDate>Wed, 04 Mar 2015 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/leetcode/</guid>
+      <guid>http://logeable.github.io/tags/leetcode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>class</title>
-      <link>http://example.org/tags/class/</link>
+      <link>http://logeable.github.io/tags/class/</link>
       <pubDate>Thu, 26 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/class/</guid>
+      <guid>http://logeable.github.io/tags/class/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sizeof</title>
-      <link>http://example.org/tags/sizeof/</link>
+      <link>http://logeable.github.io/tags/sizeof/</link>
       <pubDate>Thu, 26 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/sizeof/</guid>
+      <guid>http://logeable.github.io/tags/sizeof/</guid>
       <description></description>
     </item>
     
     <item>
       <title>struct</title>
-      <link>http://example.org/tags/struct/</link>
+      <link>http://logeable.github.io/tags/struct/</link>
       <pubDate>Thu, 26 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/struct/</guid>
+      <guid>http://logeable.github.io/tags/struct/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>http://example.org/tags/git/</link>
+      <link>http://logeable.github.io/tags/git/</link>
       <pubDate>Mon, 23 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/git/</guid>
+      <guid>http://logeable.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>goagent</title>
-      <link>http://example.org/tags/goagent/</link>
+      <link>http://logeable.github.io/tags/goagent/</link>
       <pubDate>Mon, 23 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/goagent/</guid>
+      <guid>http://logeable.github.io/tags/goagent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design pattern</title>
-      <link>http://example.org/tags/design-pattern/</link>
+      <link>http://logeable.github.io/tags/design-pattern/</link>
       <pubDate>Sat, 21 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/design-pattern/</guid>
+      <guid>http://logeable.github.io/tags/design-pattern/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenGL</title>
-      <link>http://example.org/tags/opengl/</link>
+      <link>http://logeable.github.io/tags/opengl/</link>
       <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/opengl/</guid>
+      <guid>http://logeable.github.io/tags/opengl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>图形</title>
-      <link>http://example.org/tags/%E5%9B%BE%E5%BD%A2/</link>
+      <link>http://logeable.github.io/tags/%E5%9B%BE%E5%BD%A2/</link>
       <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/%E5%9B%BE%E5%BD%A2/</guid>
+      <guid>http://logeable.github.io/tags/%E5%9B%BE%E5%BD%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>数学</title>
-      <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
+      <link>http://logeable.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
       <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <guid>http://logeable.github.io/tags/%E6%95%B0%E5%AD%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>翻译</title>
-      <link>http://example.org/tags/%E7%BF%BB%E8%AF%91/</link>
+      <link>http://logeable.github.io/tags/%E7%BF%BB%E8%AF%91/</link>
       <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/tags/%E7%BF%BB%E8%AF%91/</guid>
+      <guid>http://logeable.github.io/tags/%E7%BF%BB%E8%AF%91/</guid>
       <description></description>
     </item>
     

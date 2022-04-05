@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on log</title>
-    <link>http://example.org/posts/</link>
+    <link>http://logeable.github.io/posts/</link>
     <description>Recent content in Posts on log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Dec 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://logeable.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim配置</title>
-      <link>http://example.org/posts/vim%E9%85%8D%E7%BD%AE/</link>
+      <link>http://logeable.github.io/posts/vim%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Sun, 27 Dec 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/vim%E9%85%8D%E7%BD%AE/</guid>
+      <guid>http://logeable.github.io/posts/vim%E9%85%8D%E7%BD%AE/</guid>
       <description>vim 看起来还比较舒服的配置
  set sw=4set sts=4set ts=4set etset smarttabset autoindentset cindentset smartindentset nu&amp;#34; set smsyntax onset culset rulerset showcmdset scrolloff=3&amp;#34; set statusline=%F%m%r%h%w\ [FORMAT=%{&amp;amp;ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\&amp;#34;%d/%m/%y\ -\ %H:%M\&amp;#34;)}set laststatus=2set wildmenuset mousemodel=popupset shortmess=alIset history=1000set hlsearchset incsearchset t_Co=256&amp;#34; ==================== vundle configuration ====================set nocompatible &amp;#34; be iMproved, requiredfiletype off &amp;#34; required&amp;#34; set the runtime path to include Vundle and initializeset rtp+=~/.vim/bundle/Vundle.vimcall vundle#begin()&amp;#34; alternatively, pass a path where Vundle should install plugins&amp;#34;call vundle#begin(&amp;#39;~/some/path/here&amp;#39;)&amp;#34; let Vundle manage Vundle, requiredPlugin &amp;#39;VundleVim/Vundle.</description>
     </item>
     
     <item>
       <title>Simplify Path</title>
-      <link>http://example.org/posts/simplify-path/</link>
+      <link>http://logeable.github.io/posts/simplify-path/</link>
       <pubDate>Wed, 04 Mar 2015 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/simplify-path/</guid>
+      <guid>http://logeable.github.io/posts/simplify-path/</guid>
       <description>Given an absolute path for a file (Unix-style), simplify it.
 For example, path = &amp;ldquo;/home/&amp;rdquo;, =&amp;gt; &amp;ldquo;/home&amp;rdquo; path = &amp;ldquo;/a/./b/../../c/&amp;rdquo;, =&amp;gt; &amp;ldquo;/c&amp;rdquo;
 Corner Cases: Did you consider the case where path = &amp;ldquo;/../&amp;rdquo;? In this case, you should return &amp;ldquo;/&amp;rdquo;. Another corner case is the path might contain multiple slashes &amp;lsquo;/&amp;rsquo; together, such as &amp;ldquo;/home//foo/&amp;rdquo;. In this case, you should ignore redundant slashes and return &amp;ldquo;/home/foo&amp;rdquo;.
@@ -31,10 +31,10 @@ https://oj.leetcode.com/problems/simplify-path/
     
     <item>
       <title>Pow(x,n)</title>
-      <link>http://example.org/posts/powxn/</link>
+      <link>http://logeable.github.io/posts/powxn/</link>
       <pubDate>Wed, 04 Mar 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/powxn/</guid>
+      <guid>http://logeable.github.io/posts/powxn/</guid>
       <description>Implement pow(x, n).
 https://oj.leetcode.com/problems/powx-n/
   class Solution { public:  double pow(double x, int n) {  if(n==0)  {  return 1.0;  }  if(n&amp;lt;0)  {  if(n==numeric_limits&amp;lt;int&amp;gt;::min())  {  return 1.0/(pow(x,numeric_limits&amp;lt;int&amp;gt;::max())*x);  }  else  {  return 1.0/pow(x,-n);  }  }  double result=1.0;  for(;n&amp;gt;0;x*=x,n&amp;gt;&amp;gt;=1)  {  if(n&amp;amp;1)  {  result*=x;  }  }  return result;  } }; </description>
@@ -42,10 +42,10 @@ https://oj.leetcode.com/problems/powx-n/
     
     <item>
       <title>Roman to Integer</title>
-      <link>http://example.org/posts/roman-to-integer/</link>
+      <link>http://logeable.github.io/posts/roman-to-integer/</link>
       <pubDate>Tue, 03 Mar 2015 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/roman-to-integer/</guid>
+      <guid>http://logeable.github.io/posts/roman-to-integer/</guid>
       <description>Given a roman numeral, convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
 https://oj.leetcode.com/problems/roman-to-integer/
@@ -54,10 +54,10 @@ https://oj.leetcode.com/problems/roman-to-integer/
     
     <item>
       <title>Count and Say</title>
-      <link>http://example.org/posts/count-and-say/</link>
+      <link>http://logeable.github.io/posts/count-and-say/</link>
       <pubDate>Tue, 03 Mar 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/count-and-say/</guid>
+      <guid>http://logeable.github.io/posts/count-and-say/</guid>
       <description>The count-and-say sequence is the sequence of integers beginning as follows: 1, 11, 21, 1211, 111221, &amp;hellip;
 1 is read off as &amp;ldquo;one 1&amp;rdquo; or 11.
 11 is read off as &amp;ldquo;two 1s&amp;rdquo; or 21.
@@ -68,10 +68,10 @@ Note: The sequence of integers will be represented as a string. Given a roman nu
     
     <item>
       <title>结构体大小</title>
-      <link>http://example.org/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</link>
+      <link>http://logeable.github.io/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</link>
       <pubDate>Thu, 26 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</guid>
+      <guid>http://logeable.github.io/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</guid>
       <description>求结构体大小
  class A { int a; short b; int c; char d; }; class B { double a; short b; int c; char d; }; 在32位机器上用gcc编译以上代码，求sizeof(A),sizeof(B)分别是多少。 根据以下条件进行计算： 1、 结构体的大小等于结构体内最大成员大小的整数倍 2、 结构体内的成员的首地址相对于结构体首地址的偏移量是其类型大小的整数倍，比如说 double 型成员相对于结构体的首地址的地址偏移量应该是 8 的倍数。 3、 为了满足规则 1 和 2 编译器会在结构体成员之后进行字节填充！
 A 中，a 占 4 个字节，b 本应占 2 个字节，但由于 c 占 4 个字节，为了满足条件 2，b 多占用 2 个字节，为了满足条件 1，d 占用 4 个字节，一共 16 个字节。 B 中，a 占 8 个字节，b 占 2 个字节，但由于 c 占 4 个字节，为了满足条件 2，b 多占用 2 个字节， 即 abc 共占用 8+4+4=16 个字节， 为了满足条件 1，d 将占用 8 个字节，一共 24 个字节。</description>
@@ -79,20 +79,20 @@ A 中，a 占 4 个字节，b 本应占 2 个字节，但由于 c 占 4 个字�
     
     <item>
       <title>通过使用goagent提高git clone速度</title>
-      <link>http://example.org/posts/%E9%80%9A%E8%BF%87%E4%BD%BF%E7%94%A8goagent%E6%8F%90%E9%AB%98git-clone%E9%80%9F%E5%BA%A6/</link>
+      <link>http://logeable.github.io/posts/%E9%80%9A%E8%BF%87%E4%BD%BF%E7%94%A8goagent%E6%8F%90%E9%AB%98git-clone%E9%80%9F%E5%BA%A6/</link>
       <pubDate>Mon, 23 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E9%80%9A%E8%BF%87%E4%BD%BF%E7%94%A8goagent%E6%8F%90%E9%AB%98git-clone%E9%80%9F%E5%BA%A6/</guid>
+      <guid>http://logeable.github.io/posts/%E9%80%9A%E8%BF%87%E4%BD%BF%E7%94%A8goagent%E6%8F%90%E9%AB%98git-clone%E9%80%9F%E5%BA%A6/</guid>
       <description>通过使用 goagent 提高 git clone 速度
   vim ~/.gitconfig add: [http] proxy=http://127.0.0.1:8087 sslVerify=false </description>
     </item>
     
     <item>
       <title>多线程下的单例模式</title>
-      <link>http://example.org/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</link>
+      <link>http://logeable.github.io/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Sat, 21 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>http://logeable.github.io/posts/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8B%E7%9A%84%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</guid>
       <description>多线程下的单例模式。
  一个简单的单例:
  class Singleton { public: 	static Singleton* getInstance() 	{ 	if(instance==nullptr) 	{ 	instance=new Singleton(); 	} 	return instance; 	} private: 	Singleton(){}; 	Singleton(const Singleton&amp;amp;); 	const Singleton&amp;amp; operator=(const Singleton&amp;amp;); 	static Singleton *instance; }; Singleton* Singleton::instance=nullptr; 但是这种单例在多线程环境下就会出现问题。 例如运行下面这段程序：
@@ -101,20 +101,20 @@ A 中，a 占 4 个字节，b 本应占 2 个字节，但由于 c 占 4 个字�
     
     <item>
       <title>不使用乘除法或if while for 求1...n的和</title>
-      <link>http://example.org/posts/%E4%B8%8D%E4%BD%BF%E7%94%A8%E4%B9%98%E9%99%A4%E6%B3%95%E6%88%96if-while-for-%E6%B1%821...n%E7%9A%84%E5%92%8C/</link>
+      <link>http://logeable.github.io/posts/%E4%B8%8D%E4%BD%BF%E7%94%A8%E4%B9%98%E9%99%A4%E6%B3%95%E6%88%96if-while-for-%E6%B1%821...n%E7%9A%84%E5%92%8C/</link>
       <pubDate>Mon, 09 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E4%B8%8D%E4%BD%BF%E7%94%A8%E4%B9%98%E9%99%A4%E6%B3%95%E6%88%96if-while-for-%E6%B1%821...n%E7%9A%84%E5%92%8C/</guid>
+      <guid>http://logeable.github.io/posts/%E4%B8%8D%E4%BD%BF%E7%94%A8%E4%B9%98%E9%99%A4%E6%B3%95%E6%88%96if-while-for-%E6%B1%821...n%E7%9A%84%E5%92%8C/</guid>
       <description>在知乎上的一道题，记录下来。
  #include &amp;lt;iostream&amp;gt;using namespace std;  int sum(int n) { 	static decltype(&amp;amp;sum) fun[]={[](int){return 0;},sum}; 	return n+fun[n&amp;gt;0](n-1); }  class Sum { public: 	Sum() 	{ 	cur++; 	sum+=cur; 	} 	static int sum; 	static int cur; }; int Sum::sum=0; int Sum::cur=0;  int main(int argc,char *argv[]) { 	cout&amp;lt;&amp;lt;sum(10)&amp;lt;&amp;lt;endl; 	Sum s[10]; 	cout&amp;lt;&amp;lt;Sum::sum&amp;lt;&amp;lt;endl; 	return 0; } </description>
     </item>
     
     <item>
       <title>Length of Last Word</title>
-      <link>http://example.org/posts/length-of-last-word/</link>
+      <link>http://logeable.github.io/posts/length-of-last-word/</link>
       <pubDate>Mon, 15 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/length-of-last-word/</guid>
+      <guid>http://logeable.github.io/posts/length-of-last-word/</guid>
       <description>Given a string s consists of upper/lower-case alphabets and empty space characters &amp;rsquo; &amp;lsquo;, return the length of last word in the string.
 If the last word does not exist, return 0.
 Note: A word is defined as a character sequence consists of non-space characters only.
@@ -126,10 +126,10 @@ class Solution { public:  int lengthOfLastWord(const char *s) {  int len=0;  int
     
     <item>
       <title>Remove Duplicates from Sorted Array</title>
-      <link>http://example.org/posts/remove-duplicates-from-sorted-array/</link>
+      <link>http://logeable.github.io/posts/remove-duplicates-from-sorted-array/</link>
       <pubDate>Mon, 15 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/remove-duplicates-from-sorted-array/</guid>
+      <guid>http://logeable.github.io/posts/remove-duplicates-from-sorted-array/</guid>
       <description>Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
 Do not allocate extra space for another array, you must do this in place with constant memory.
 For example, Given input array A = [1,1,2],
@@ -141,10 +141,10 @@ class Solution { public:  int removeDuplicates(int A[], int n) {  if(n==0)  {  r
     
     <item>
       <title>Maximum Depth of Binary Tree</title>
-      <link>http://example.org/posts/maximum-depth-of-binary-tree/</link>
+      <link>http://logeable.github.io/posts/maximum-depth-of-binary-tree/</link>
       <pubDate>Fri, 12 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/maximum-depth-of-binary-tree/</guid>
+      <guid>http://logeable.github.io/posts/maximum-depth-of-binary-tree/</guid>
       <description>Given a binary tree, find its maximum depth.
 The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/
@@ -153,10 +153,10 @@ https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/
     
     <item>
       <title>Path Sum II</title>
-      <link>http://example.org/posts/path-sum-ii/</link>
+      <link>http://logeable.github.io/posts/path-sum-ii/</link>
       <pubDate>Thu, 11 Dec 2014 14:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/path-sum-ii/</guid>
+      <guid>http://logeable.github.io/posts/path-sum-ii/</guid>
       <description>Given a binary tree and a sum, find all root-to-leaf paths where each path&amp;rsquo;s sum equals the given sum.
 For example: Given the below binary tree and sum = 22,
 return
@@ -167,10 +167,10 @@ class Solution { public:  vector&amp;lt;vector&amp;lt;int&amp;gt; &amp;gt; pathS
     
     <item>
       <title>Maximum Subarray</title>
-      <link>http://example.org/posts/maximum-subarray/</link>
+      <link>http://logeable.github.io/posts/maximum-subarray/</link>
       <pubDate>Thu, 11 Dec 2014 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/maximum-subarray/</guid>
+      <guid>http://logeable.github.io/posts/maximum-subarray/</guid>
       <description>Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
 For example, given the array [−2,1,−3,4,−1,2,1,−5,4], the contiguous subarray [4,−1,2,1] has the largest sum = 6.
 More practice: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
@@ -181,10 +181,10 @@ class Solution { public:  int maxSubArray(int A[], int n) {  int max=A[0];  int 
     
     <item>
       <title>Binary Tree Preorder Traversal</title>
-      <link>http://example.org/posts/binary-tree-preorder-traversal/</link>
+      <link>http://logeable.github.io/posts/binary-tree-preorder-traversal/</link>
       <pubDate>Thu, 11 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/binary-tree-preorder-traversal/</guid>
+      <guid>http://logeable.github.io/posts/binary-tree-preorder-traversal/</guid>
       <description>Given a binary tree, return the preorder traversal of its nodes&amp;rsquo; values.
 For example: Given binary tree {1,#,2,3},
 return [1,2,3].
@@ -196,10 +196,10 @@ class Solution { public:  vector&amp;lt;int&amp;gt; preorderTraversal(TreeNode *
     
     <item>
       <title>Valid Sudoku</title>
-      <link>http://example.org/posts/valid-sudoku/</link>
+      <link>http://logeable.github.io/posts/valid-sudoku/</link>
       <pubDate>Tue, 09 Dec 2014 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/valid-sudoku/</guid>
+      <guid>http://logeable.github.io/posts/valid-sudoku/</guid>
       <description>Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
 The Sudoku board could be partially filled, where empty cells are filled with the character&#39;.&#39;.
 ![sudoku]({{ site.baseurl }}/images/Valid Sudoku/sudoku.png)
@@ -212,10 +212,10 @@ class Solution { public:  bool isValid(vector&amp;lt;char&amp;gt; &amp;amp;v)  {
     
     <item>
       <title>Minimum Depth of Binary Tree</title>
-      <link>http://example.org/posts/minimum-depth-of-binary-tree/</link>
+      <link>http://logeable.github.io/posts/minimum-depth-of-binary-tree/</link>
       <pubDate>Tue, 09 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/minimum-depth-of-binary-tree/</guid>
+      <guid>http://logeable.github.io/posts/minimum-depth-of-binary-tree/</guid>
       <description>Given a binary tree, find its minimum depth.
 The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/
@@ -225,10 +225,10 @@ int minDepth(TreeNode *root) { 	if(root==nullptr) 	{ 	return 0; 	} 	if(root-&amp
     
     <item>
       <title>Same Tree</title>
-      <link>http://example.org/posts/same-tree/</link>
+      <link>http://logeable.github.io/posts/same-tree/</link>
       <pubDate>Mon, 08 Dec 2014 14:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/same-tree/</guid>
+      <guid>http://logeable.github.io/posts/same-tree/</guid>
       <description>Given two binary trees, write a function to check if they are equal or not.
 Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 https://oj.leetcode.com/problems/same-tree/
@@ -238,10 +238,10 @@ bool isSameTree(TreeNode *p,TreeNode *q) { 	if(p==q) 	{ 	return true; 	} 	if(p==
     
     <item>
       <title>Reverse Integer</title>
-      <link>http://example.org/posts/reverse-integer/</link>
+      <link>http://logeable.github.io/posts/reverse-integer/</link>
       <pubDate>Mon, 08 Dec 2014 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/reverse-integer/</guid>
+      <guid>http://logeable.github.io/posts/reverse-integer/</guid>
       <description>Reverse digits of an integer.
 Example1: x = 123, return 321 Example2: x = -123, return -321
 https://oj.leetcode.com/problems/reverse-integer/
@@ -252,10 +252,10 @@ int reverse(int x) { 	int max=numeric_limits&amp;lt;int&amp;gt;::max(); 	int min
     
     <item>
       <title>Palindrome Number</title>
-      <link>http://example.org/posts/palindrome-number/</link>
+      <link>http://logeable.github.io/posts/palindrome-number/</link>
       <pubDate>Mon, 08 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/palindrome-number/</guid>
+      <guid>http://logeable.github.io/posts/palindrome-number/</guid>
       <description>Determine whether an integer is a palindrome. Do this without extra space.
 Some hints: Could negative integers be palindromes? (ie, -1)
 If you are thinking of converting the integer to string, note the restriction of using extra space.
@@ -265,10 +265,10 @@ There is a more generic way of solving this problem.</description>
     
     <item>
       <title>Path Sum</title>
-      <link>http://example.org/posts/path-sum/</link>
+      <link>http://logeable.github.io/posts/path-sum/</link>
       <pubDate>Fri, 05 Dec 2014 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/path-sum/</guid>
+      <guid>http://logeable.github.io/posts/path-sum/</guid>
       <description>Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
 For example: Given the below binary tree and sum = 22,
 return true, as there exist a root-to-leaf path 5-&amp;gt;4-&amp;gt;11-&amp;gt;2 which sum is 22.
@@ -278,10 +278,10 @@ https://oj.leetcode.com/problems/path-sum/
     
     <item>
       <title>判断序列是不是二叉搜索树的后续遍历</title>
-      <link>http://example.org/posts/%E5%88%A4%E6%96%AD%E5%BA%8F%E5%88%97%E6%98%AF%E4%B8%8D%E6%98%AF%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E7%BB%AD%E9%81%8D%E5%8E%86/</link>
+      <link>http://logeable.github.io/posts/%E5%88%A4%E6%96%AD%E5%BA%8F%E5%88%97%E6%98%AF%E4%B8%8D%E6%98%AF%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E7%BB%AD%E9%81%8D%E5%8E%86/</link>
       <pubDate>Fri, 05 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%88%A4%E6%96%AD%E5%BA%8F%E5%88%97%E6%98%AF%E4%B8%8D%E6%98%AF%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E7%BB%AD%E9%81%8D%E5%8E%86/</guid>
+      <guid>http://logeable.github.io/posts/%E5%88%A4%E6%96%AD%E5%BA%8F%E5%88%97%E6%98%AF%E4%B8%8D%E6%98%AF%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E7%BB%AD%E9%81%8D%E5%8E%86/</guid>
       <description>这一题是暑假面试百度实习的时候没做出来的一道题。
  ####二叉搜索树后序遍历的规律是左子树的后续遍历序列都比根小，右子树后序遍历序列都比根大，形如[左子树 右子树 根]。判断方法就是从左遍历序列，找出第一个比根大的元素，然后从这个元素到根（不包括根）的元素都必须比根大。然后递归的判断左右子序列，当子序列只有一个或没有节点的时候返回真。
 bool judge(vector&amp;lt;int&amp;gt;::iterator first,vector&amp;lt;int&amp;gt;::iterator last) { 	if(first==last||distance(first,last)==1) 	{ 	return true; 	} 	auto root=last-1; 	vector&amp;lt;int&amp;gt;::iterator pos=first; 	for(auto iter=first;iter!=root;iter++) 	{ 	if(*iter&amp;gt;*root) 	{ 	pos=iter; 	break; 	} 	} 	for(auto iter=pos;iter!=root;iter++) 	{ 	if(*iter&amp;lt;*root) 	{ 	return false; 	} 	} 	return judge(first,pos)&amp;amp;&amp;amp;judge(pos,root); } bool isBinarySearchTreePostOrder(vector&amp;lt;int&amp;gt; vec) { 	judge(vec.begin(),vec.end()); } </description>
@@ -289,10 +289,10 @@ bool judge(vector&amp;lt;int&amp;gt;::iterator first,vector&amp;lt;int&amp;gt;::
     
     <item>
       <title>Search in Rotated Sorted Array</title>
-      <link>http://example.org/posts/search-in-rotated-sorted-array/</link>
+      <link>http://logeable.github.io/posts/search-in-rotated-sorted-array/</link>
       <pubDate>Thu, 04 Dec 2014 14:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/search-in-rotated-sorted-array/</guid>
+      <guid>http://logeable.github.io/posts/search-in-rotated-sorted-array/</guid>
       <description>Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
 You are given a target value to search. If found in the array return its index, otherwise return -1.
@@ -304,10 +304,10 @@ int search(int A[], int n, int target) { 	for(int i=0;i&amp;lt;n;i++) 	{ 	if(tar
     
     <item>
       <title>Construct Binary Tree from Preorder and Inorder Traversal</title>
-      <link>http://example.org/posts/construct-binary-tree-from-preorder-and-inorder-traversal-/</link>
+      <link>http://logeable.github.io/posts/construct-binary-tree-from-preorder-and-inorder-traversal-/</link>
       <pubDate>Thu, 04 Dec 2014 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/construct-binary-tree-from-preorder-and-inorder-traversal-/</guid>
+      <guid>http://logeable.github.io/posts/construct-binary-tree-from-preorder-and-inorder-traversal-/</guid>
       <description>Given preorder and inorder traversal of a tree, construct the binary tree.
 Note: You may assume that duplicates do not exist in the tree
 https://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
@@ -317,10 +317,10 @@ TreeNode *buildTree(vector&amp;lt;int&amp;gt; &amp;amp;preorder, vector&amp;lt;i
     
     <item>
       <title>Best Time to Buy and Sell Stock</title>
-      <link>http://example.org/posts/best-time-to-buy-and-sell-stock-/</link>
+      <link>http://logeable.github.io/posts/best-time-to-buy-and-sell-stock-/</link>
       <pubDate>Thu, 04 Dec 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/best-time-to-buy-and-sell-stock-/</guid>
+      <guid>http://logeable.github.io/posts/best-time-to-buy-and-sell-stock-/</guid>
       <description>Say you have an array for which the ith element is the price of a given stock on day i.
 If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
 https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/
@@ -330,10 +330,10 @@ int maxProfit(vector&amp;lt;int&amp;gt; &amp;amp;prices) { 	if (prices.size() ==
     
     <item>
       <title>Search a 2D Matrix</title>
-      <link>http://example.org/posts/search-a-2d-matrix/</link>
+      <link>http://logeable.github.io/posts/search-a-2d-matrix/</link>
       <pubDate>Fri, 21 Nov 2014 14:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/search-a-2d-matrix/</guid>
+      <guid>http://logeable.github.io/posts/search-a-2d-matrix/</guid>
       <description>Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
  Integers in each row are sorted from left to right. The first integer of each row is greater than the last integer of the previous row.  For example, Consider the following matrix:
 [ [1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50] ] https://oj.leetcode.com/problems/search-a-2d-matrix/</description>
@@ -341,10 +341,10 @@ int maxProfit(vector&amp;lt;int&amp;gt; &amp;amp;prices) { 	if (prices.size() ==
     
     <item>
       <title>Two Sum</title>
-      <link>http://example.org/posts/two-sum/</link>
+      <link>http://logeable.github.io/posts/two-sum/</link>
       <pubDate>Fri, 21 Nov 2014 14:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/two-sum/</guid>
+      <guid>http://logeable.github.io/posts/two-sum/</guid>
       <description>Given an array of integers, find two numbers such that they add up to a specific target number.
 The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
 You may assume that each input would have exactly one solution.
@@ -353,10 +353,10 @@ Input: numbers={2, 7, 11, 15}, target=9 Output: index1=1, index2=2 https://oj.</
     
     <item>
       <title>Merge Sorted Array</title>
-      <link>http://example.org/posts/merge-sorted-array-/</link>
+      <link>http://logeable.github.io/posts/merge-sorted-array-/</link>
       <pubDate>Fri, 21 Nov 2014 13:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/merge-sorted-array-/</guid>
+      <guid>http://logeable.github.io/posts/merge-sorted-array-/</guid>
       <description>Given two sorted integer arrays A and B, merge B into A as one sorted array.
 Note: You may assume that A has enough space (size that is greater or equal to m + n) to hold additional elements from B. The number of elements initialized in A and B are m and n respectively.
 https://oj.leetcode.com/problems/merge-sorted-array/
@@ -365,10 +365,10 @@ https://oj.leetcode.com/problems/merge-sorted-array/
     
     <item>
       <title>OpenGL基础</title>
-      <link>http://example.org/posts/opengl%E5%9F%BA%E7%A1%80/</link>
+      <link>http://logeable.github.io/posts/opengl%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/opengl%E5%9F%BA%E7%A1%80/</guid>
+      <guid>http://logeable.github.io/posts/opengl%E5%9F%BA%E7%A1%80/</guid>
       <description>在刚开始学习图形编程的时候它是一项令人生畏的任务。渲染管线设计大量的步骤，每一步又处理各种数学运算。stage 为下一个 stage 运行实际的程序来计算结果。熟悉管线，把它当成工具来实现视觉特效，这是成为图形学程序员的本质。 这本书的这一小节介绍一些基础 3D 图形数学，OpenGL 中的管线以及展示数据是怎么流经这些图形管线的。
   译文：http://www.arcsynthesis.org/gltut/Basics/Introduction.html
  向量 这本书假设你熟悉代数学和几何学，但是向量数学不是必须的。后面的章节将会学习到更多复杂主题，但是这里仅仅介绍一些向量数学的基础。

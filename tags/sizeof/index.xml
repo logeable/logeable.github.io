@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sizeof on log</title>
-    <link>http://example.org/tags/sizeof/</link>
+    <link>http://logeable.github.io/tags/sizeof/</link>
     <description>Recent content in sizeof on log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Feb 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://example.org/tags/sizeof/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://logeable.github.io/tags/sizeof/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>结构体大小</title>
-      <link>http://example.org/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</link>
+      <link>http://logeable.github.io/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</link>
       <pubDate>Thu, 26 Feb 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</guid>
+      <guid>http://logeable.github.io/posts/%E7%BB%93%E6%9E%84%E4%BD%93%E5%A4%A7%E5%B0%8F/</guid>
       <description>求结构体大小
  class A { int a; short b; int c; char d; }; class B { double a; short b; int c; char d; }; 在32位机器上用gcc编译以上代码，求sizeof(A),sizeof(B)分别是多少。 根据以下条件进行计算： 1、 结构体的大小等于结构体内最大成员大小的整数倍 2、 结构体内的成员的首地址相对于结构体首地址的偏移量是其类型大小的整数倍，比如说 double 型成员相对于结构体的首地址的地址偏移量应该是 8 的倍数。 3、 为了满足规则 1 和 2 编译器会在结构体成员之后进行字节填充！
 A 中，a 占 4 个字节，b 本应占 2 个字节，但由于 c 占 4 个字节，为了满足条件 2，b 多占用 2 个字节，为了满足条件 1，d 占用 4 个字节，一共 16 个字节。 B 中，a 占 8 个字节，b 占 2 个字节，但由于 c 占 4 个字节，为了满足条件 2，b 多占用 2 个字节， 即 abc 共占用 8+4+4=16 个字节， 为了满足条件 1，d 将占用 8 个字节，一共 24 个字节。</description>

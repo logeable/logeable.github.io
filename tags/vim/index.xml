@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vim on log</title>
-    <link>http://example.org/tags/vim/</link>
+    <link>http://logeable.github.io/tags/vim/</link>
     <description>Recent content in vim on log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 Dec 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://example.org/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2015 12:00:00 +0800</lastBuildDate><atom:link href="http://logeable.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim配置</title>
-      <link>http://example.org/posts/vim%E9%85%8D%E7%BD%AE/</link>
+      <link>http://logeable.github.io/posts/vim%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Sun, 27 Dec 2015 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/vim%E9%85%8D%E7%BD%AE/</guid>
+      <guid>http://logeable.github.io/posts/vim%E9%85%8D%E7%BD%AE/</guid>
       <description>vim 看起来还比较舒服的配置
  set sw=4set sts=4set ts=4set etset smarttabset autoindentset cindentset smartindentset nu&amp;#34; set smsyntax onset culset rulerset showcmdset scrolloff=3&amp;#34; set statusline=%F%m%r%h%w\ [FORMAT=%{&amp;amp;ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\&amp;#34;%d/%m/%y\ -\ %H:%M\&amp;#34;)}set laststatus=2set wildmenuset mousemodel=popupset shortmess=alIset history=1000set hlsearchset incsearchset t_Co=256&amp;#34; ==================== vundle configuration ====================set nocompatible &amp;#34; be iMproved, requiredfiletype off &amp;#34; required&amp;#34; set the runtime path to include Vundle and initializeset rtp+=~/.vim/bundle/Vundle.vimcall vundle#begin()&amp;#34; alternatively, pass a path where Vundle should install plugins&amp;#34;call vundle#begin(&amp;#39;~/some/path/here&amp;#39;)&amp;#34; let Vundle manage Vundle, requiredPlugin &amp;#39;VundleVim/Vundle.</description>
     </item>

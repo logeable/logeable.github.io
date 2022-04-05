@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>数学 on log</title>
-    <link>http://example.org/tags/%E6%95%B0%E5%AD%A6/</link>
+    <link>http://logeable.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
     <description>Recent content in 数学 on log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Nov 2014 12:00:00 +0800</lastBuildDate><atom:link href="http://example.org/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Nov 2014 12:00:00 +0800</lastBuildDate><atom:link href="http://logeable.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenGL基础</title>
-      <link>http://example.org/posts/opengl%E5%9F%BA%E7%A1%80/</link>
+      <link>http://logeable.github.io/posts/opengl%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Fri, 21 Nov 2014 12:00:00 +0800</pubDate>
       
-      <guid>http://example.org/posts/opengl%E5%9F%BA%E7%A1%80/</guid>
+      <guid>http://logeable.github.io/posts/opengl%E5%9F%BA%E7%A1%80/</guid>
       <description>在刚开始学习图形编程的时候它是一项令人生畏的任务。渲染管线设计大量的步骤，每一步又处理各种数学运算。stage 为下一个 stage 运行实际的程序来计算结果。熟悉管线，把它当成工具来实现视觉特效，这是成为图形学程序员的本质。 这本书的这一小节介绍一些基础 3D 图形数学，OpenGL 中的管线以及展示数据是怎么流经这些图形管线的。
   译文：http://www.arcsynthesis.org/gltut/Basics/Introduction.html
  向量 这本书假设你熟悉代数学和几何学，但是向量数学不是必须的。后面的章节将会学习到更多复杂主题，但是这里仅仅介绍一些向量数学的基础。
